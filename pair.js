@@ -57,7 +57,7 @@ function getPublicUrl() {
     if (process.env.SERVER_URL) return process.env.SERVER_URL.replace(/\/$/, '');
     if (process.env.PUBLIC_URL) return process.env.PUBLIC_URL.replace(/\/$/, '');
     if (process.env.RAILWAY_PUBLIC_DOMAIN) return `https://${process.env.RAILWAY_PUBLIC_DOMAIN}`;
-    return 'http://https://cine-hub-production.up.railway.app/';
+    return 'https://cine-hub-production.up.railway.app/';
 }
 
 const config = {
@@ -66,8 +66,8 @@ const config = {
   AUTO_VIEW_STATUS: 'true',
   AUTO_LIKE_STATUS: 'true',
   AUTO_LIKE_EMOJI: ['💙'],
-  BOT_NAME: '🍃 💚𝐁𝐄𝐒𝐓𝐈𝐄_𝐌𝐈𝐍𝐈😘-MD',
-  BOT_FOOTER: '🍃 💚𝐁𝐄𝐒𝐓𝐈𝐄_𝐌𝐈𝐍𝐈😘-MD',
+  BOT_NAME: '🍃 💚𝐁𝐄𝐒𝐓𝐈𝐄_𝐌𝐈𝐍𝐈😘',
+  BOT_FOOTER: '💚𝐁𝐄𝐒𝐓𝐈𝐄_𝐌𝐈𝐍𝐈😘',
   MODE: 'public', 
   MAX_RETRIES: 3,
   ADMIN_LIST_PATH: './admin.json',
