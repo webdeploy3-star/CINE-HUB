@@ -57,7 +57,7 @@ function getPublicUrl() {
     if (process.env.SERVER_URL) return process.env.SERVER_URL.replace(/\/$/, '');
     if (process.env.PUBLIC_URL) return process.env.PUBLIC_URL.replace(/\/$/, '');
     if (process.env.RAILWAY_PUBLIC_DOMAIN) return `https://${process.env.RAILWAY_PUBLIC_DOMAIN}`;
-    return 'http://localhost:8080';
+    return 'http://https://cine-hub-production.up.railway.app/';
 }
 
 const config = {
