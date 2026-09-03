@@ -1,0 +1,8 @@
+node_modules/
+CHAMA-SHIELD/
+numbers.json
+.env
+*.log
+pair.js.bak
+scratch/
+.gemini/
